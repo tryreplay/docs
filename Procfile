@@ -1,1 +1,1 @@
-start-docs: yarn run start
+start-docs: yarn run serve
