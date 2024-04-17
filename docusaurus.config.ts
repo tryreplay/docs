@@ -31,11 +31,12 @@ const config: Config = {
 
   presets: [
     [
-      "classic",
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: "./sidebars.ts",
+          routeBasePath: "/", // Serve the docs at the site's root
         },
+        blog: false,
 
         theme: {
           customCss: "./src/css/custom.css",
@@ -52,14 +53,6 @@ const config: Config = {
         alt: "Weights Logo",
         src: "img/weights_logo.png",
       },
-      items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
-      ],
     },
     footer: {
       style: "dark",
@@ -69,7 +62,7 @@ const config: Config = {
           items: [
             {
               label: "Tutorial",
-              to: "/docs/intro",
+              to: "/intro",
             },
           ],
         },
