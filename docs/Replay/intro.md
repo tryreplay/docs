@@ -1,13 +1,16 @@
 ---
 sidebar_position: 1
+sidebar_label: 'Basics Of Replay!'
 ---
 
-# Weights.gg & Replay Docs
-This is where you can find all info for weights.gg and replay!
+# Tutorial Intro
 
-## Getting Started with replay!
+Let's discover **Docusaurus in less than 5 minutes**.
 
-Before we start, Please understand that Replay runs locally if you are looking for a online version go to weights.gg! View the basics [here](/docs/what-is-replay)
+## Getting Started
+
+Get started by **creating a new site**.
+
 Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
 ### What you'll need
