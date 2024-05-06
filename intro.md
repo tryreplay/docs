@@ -1,6 +1,5 @@
 ---
 slug: /
-sidebar_position: 1
 ---
 
 # Weights.gg & Replay Docs
